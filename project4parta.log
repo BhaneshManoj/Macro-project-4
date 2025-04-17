@@ -1,0 +1,57 @@
+Starting Dynare (version 6.3).
+Calling Dynare with arguments: none
+Starting preprocessing of the model file ... 
+Found 7 equation(s). 
+Evaluating expressions... 
+Computing static model derivatives (order 1). 
+Normalizing the static model... 
+Finding the optimal block decomposition of the static model... 
+1 block(s) found: 
+  0 recursive block(s) and 1 simultaneous block(s). 
+  the largest simultaneous block has 7 equation(s) 
+                                 and 7 feedback variable(s). 
+Computing dynamic model derivatives (order 1). 
+Normalizing the dynamic model... 
+Finding the optimal block decomposition of the dynamic model... 
+1 block(s) found: 
+  0 recursive block(s) and 1 simultaneous block(s). 
+  the largest simultaneous block has 7 equation(s) 
+                                 and 7 feedback variable(s). 
+Preprocessing completed. 
+Preprocessing time: 0h00m00s.
+
+STEADY-STATE RESULTS:
+
+y 		 0.870626
+c 		 0.68646
+w 		 1.72629
+l 		 0.304113
+k 		 7.36662
+i 		 0.184166
+r 		 0.035101
+
+EIGENVALUES:
+         Modulus             Real        Imaginary
+          0.9469           0.9469                0
+           1.074            1.074                0
+             Inf              Inf                0
+
+There are 2 eigenvalue(s) larger than 1 in modulus for 2 forward-looking variable(s)
+The rank condition is verified.
+
+
+--------------------------------------------------------
+MODEL SIMULATION:
+
+Iter: 1,	 err. = 0.0603304,	 time = 0.029
+Iter: 2,	 err. = 0.00779559,	 time = 0.006
+Iter: 3,	 err. = 2.77897e-05,	 time = 0.004
+Iter: 4,	 err. = 3.95939e-11,	 time = 0.005
+
+Total time of simulation: 0.048.
+--------------------------------------------------------
+
+
+Perfect foresight solution found.
+
+Total computing time : 0h00m00s
